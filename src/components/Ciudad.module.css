@@ -1,0 +1,45 @@
+.card {
+  background-image: linear-gradient(160deg, #0093e9 25%, #80d0c7 100%);
+  margin: 20px;
+  padding: 20px;
+  color: #e9ecef;
+  border: solid #80d0c7 1px;
+  border-radius: 10px;
+  flex: 0 1 30%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px #5e60ce;
+}
+@media (max-width: 768px) {
+  .card {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+.city {
+  color: #e9ecef;
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.cardContent {
+  margin: 0%;
+  font-size: x-large;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.minContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: flex-start;
+}
+.image {
+  height: 200px;
+}

@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: solid #e9ecef 1px;
+}
+
+.homeCnt {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  padding: 7.5px 10px 7.5px 10px;
+  display: flex;
+  justify-self: flex-start;
+  width: 90px;
+}
+
+.h1 {
+  padding: 7.5px 10px 7.5px 10px;
+  font-size: larger;
+  color: #e9ecef;
+  display: flex;
+  justify-self: flex-start;
+}
+
+.srchBar {
+  display: flex;
+  justify-self: flex-end;
+  margin-left: auto;
+}
+
+.about {
+  display: flex;
+  color: #e9ecef;
+  font-style: italic;
+  font-size: large;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.active {
+  display: flex;
+  justify-self: flex-end;
+  border-bottom: solid #e9ecef 2px;
+  border-radius: 10px;
+}
