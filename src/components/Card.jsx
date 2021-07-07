@@ -15,7 +15,7 @@ export default function Card(props) {
         <span>Max</span>
         <span>{props.max}°</span>
       </div>
-      <img src={`http://openweathermap.org/img/wn/${props.img}@2x.png`} alt={"Clima"}/>
+      <img src={`https://openweathermap.org/img/wn/${props.img}@2x.png`} alt={"Clima"}/>
     </div>
   </div>)
 };

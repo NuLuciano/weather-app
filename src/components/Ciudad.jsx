@@ -14,7 +14,7 @@ export default function Ciudad({ match, city }) {
                     <div>Latitude: {city.latitud}º</div>
                     <div>Longitude: {city.longitud}º</div>
                 </div>
-                <img className={s.image} src={`http://openweathermap.org/img/wn/${city.img}@2x.png`} alt="Weather" />
+                <img className={s.image} src={`https://openweathermap.org/img/wn/${city.img}@2x.png`} alt="Weather" />
             </div>
         </div>
     )
